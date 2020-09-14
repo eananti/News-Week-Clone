@@ -21,12 +21,23 @@ body {
   display: none;
 }
 
-/* header */
+.red-color {
+  color: #f72210;
+}
 
-nav {
+.red-bg-color {
   background-color: #f72210;
 }
 
+/* header */
+
 .btn-color {
   background-color: #ffe400;
+}
+
+/* main */
+
+.featured-article img {
+  width: 100%;
+  height: auto;
 }

@@ -17,7 +17,8 @@
 <body>
   <!-- Document starts here -->
   <header>
-    <nav class="navbar bg-color navbar-dark fixed-top d-lg-none">
+    <!-- Mobile Menu -->
+    <nav class="navbar navbar-dark fixed-top d-lg-none red-bg-color">
       <a href="#" class="navbar-brand">NavBar</a>
       <span class="ml-auto">LOGIN</span>
       <button type="button" class="btn btn-color mr-2 ml-4">SUBSCRIBE</button>
@@ -26,7 +27,8 @@
       </button>
     </nav>
 
-    <nav class="container-fluid navbar none lg-show">
+    <!-- Desktop Menu -->
+    <nav class="container-fluid navbar none lg-show red-bg-color">
       <div class="row">
         <div class="col-lg">
           <div class="d-flex align-items-center">
@@ -47,40 +49,127 @@
         </div>
       </div>
     </nav>
+
+    <!-- List items under the desktop nav -->
     <div class="none lg-show">
-    <ul class="nav ml-3 mt-2">
-      <li class="nav-item mr-2 border border-left-0 border-bottom-0 border border-top-0 pr-2"><a class="navlink text-body" href="#">U.S</a></li>
-      <li class="nav-item mr-2 border border-left-0 border-bottom-0 border border-top-0 pr-2"><a class="navlink  text-body" href="#">World</a></li>
-      <li class="nav-item mr-2 border border-left-0 border-bottom-0 border border-top-0 pr-2"><a class="navlink text-body" href="#">Business</a></li>
-      <li class="nav-item mr-2 border border-left-0 border-bottom-0 border border-top-0 pr-2"><a class="navlink text-body" href="#">Tech & Science</a></li>
-      <li class="nav-item mr-2 border border-left-0 border-bottom-0 border border-top-0 pr-2"><a class="navlink text-body" href="#">Culture</a></li>
-      <li class="nav-item mr-2 border border-left-0 border-bottom-0 border border-top-0 pr-2"><a class="navlink text-body" href="#">Newsgeek</a></li>
-      <li class="nav-item mr-2 border border-left-0 border-bottom-0 border border-top-0 pr-2"><a class="navlink text-body" href="#">Sports</a></li>
-      <li class="nav-item mr-2 border border-left-0 border-bottom-0 border border-top-0 pr-2"><a class="navlink text-body" href="#">Health</a></li>
-      <li class="nav-item mr-2 border border-left-0 border-bottom-0 border border-top-0 pr-2"><a class="navlink text-body" href="#">The Debate</a></li>
-      <li class="nav-item mr-2 border border-left-0 border-bottom-0 border border-top-0 pr-2"><a class="navlink text-body" href="#">Vantage</a></li>
-      <li class="nav-item mr-2"><a class="navlink text-body" href="#">Weather</a></li>
-      <span>Search </span> <img src = 'images/search-icon.svg' class='ml-2'>
-    </ul>
-    <hr>
-    <ul class='nav mt-2 ml-4'>
-      <li class="nav-item mr-4"><a class="navlink text-body">TRENDING</a></li>
-      <li class="nav-item mr-4"><a class="navlink text-secondary">DONALD TRUMP</a></li>
-      <li class="nav-item mr-4"><a class="navlink text-secondary">JOE BIDEN</a></li>
-      <li class="nav-item mr-4"><a class="navlink text-secondary">CHINA</a></li>
-      <li class="nav-item mr-4"><a class="navlink text-secondary">CORONAVIRUS</a></li>
-      <li class="nav-item mr-4"><a class="navlink text-secondary">2020 ELECTION</a></li>
-    </ul>
-    <hr>
+      <ul class="nav ml-3 mt-4">
+        <li class="nav-item mr-2 border border-left-0 border-bottom-0 border border-top-0 pr-2">
+          <a class="navlink text-body" href="#">U.S</a>
+        </li>
+        <li class="nav-item mr-2 border border-left-0 border-bottom-0 border border-top-0 pr-2">
+          <a class="navlink  text-body" href="#">World</a>
+        </li>
+        <li class="nav-item mr-2 border border-left-0 border-bottom-0 border border-top-0 pr-2">
+          <a class="navlink text-body" href="#">Business</a>
+        </li>
+        <li class="nav-item mr-2 border border-left-0 border-bottom-0 border border-top-0 pr-2">
+          <a class="navlink text-body" href="#">Tech & Science</a>
+        </li>
+        <li class="nav-item mr-2 border border-left-0 border-bottom-0 border border-top-0 pr-2">
+          <a class="navlink text-body" href="#">Culture</a>
+        </li>
+        <li class="nav-item mr-2 border border-left-0 border-bottom-0 border border-top-0 pr-2">
+          <a class="navlink text-body" href="#">Newsgeek</a>
+        </li>
+        <li class="nav-item mr-2 border border-left-0 border-bottom-0 border border-top-0 pr-2">
+          <a class="navlink text-body" href="#">Sports</a>
+        </li>
+        <li class="nav-item mr-2 border border-left-0 border-bottom-0 border border-top-0 pr-2">
+          <a class="navlink text-body" href="#">Health</a>
+        </li>
+        <li class="nav-item mr-2 border border-left-0 border-bottom-0 border border-top-0 pr-2">
+          <a class="navlink text-body" href="#">The Debate</a>
+        </li>
+        <li class="nav-item mr-2 border border-left-0 border-bottom-0 border border-top-0 pr-2">
+          <a class="navlink text-body" href="#">Vantage</a>
+        </li>
+        <li class="nav-item mr-2"><a class="navlink text-body" href="#">Weather</a>
+        </li>
+        <span class="text-secondary">Search </span> <img src="./images/search-icon.svg" class="ml-2">
+      </ul>
+      <!-- Horizontal line -->
+      <hr>
+      <ul class="nav mt-2 ml-4">
+        <li class="nav-item mr-4"><a class="navlink text-body">TRENDING</a></li>
+        <li class="nav-item mr-4"><a class="navlink text-secondary">DONALD TRUMP</a></li>
+        <li class="nav-item mr-4"><a class="navlink text-secondary">JOE BIDEN</a></li>
+        <li class="nav-item mr-4"><a class="navlink text-secondary">CHINA</a></li>
+        <li class="nav-item mr-4"><a class="navlink text-secondary">CORONAVIRUS</a></li>
+        <li class="nav-item mr-4"><a class="navlink text-secondary">2020 ELECTION</a></li>
+      </ul>
+      <!-- Horizontal line -->
+      <hr>
     </div>
-    
   </header>
 
-  <!-- Mobile View -->
-
-  <!-- Medium and Large View-->
-  <main class="none md-show">
-
+  <main>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg">
+          <h2>FEATURED STORIES</h2>
+          <article class="card featured-article border border-0">
+            <img class="card-image-top" src="./images/f-img-1.PNG" alt="Garcetti">
+            <div class="card-body pl-0">
+              <h3 class="card-title">
+                <a href="#">L.A. Mayor Calls Out Trump Over Wildfires Ahead of His Visit To California</a>
+              </h3>
+              <p class="card-text">This is climate change and this is an administration that's put its head in the
+                sand," Eric Garcetti said.</p>
+            </div>
+          </article>
+          <article class="card featured-article border border-0">
+            <img class="card-image-top" src="./images/f-img-2.PNG" alt="Garcetti">
+            <div class="card-body pl-0">
+              <h3 class="card-title">
+                <a href="#">Portland Leads Cities With Worst Air Quality in the World Amid Wildfires</a>
+              </h3>
+              <p class="card-text">This is climate change and this is an administration that's put its head in the
+                sand," Eric Garcetti said.</p>
+            </div>
+          </article>
+          <article class="card featured-article border border-0">
+            <img class="card-image-top" src="./images/f-img-3.PNG" alt="Garcetti">
+            <div class="card-body pl-0">
+              <h3 class="card-title">
+                <a href="#">Fox News Poll Shows Americans Saying Biden More Mentally Sound Than Trump</a>
+              </h3>
+              <p class="card-text">This is climate change and this is an administration that's put its head in the
+                sand," Eric Garcetti said.</p>
+            </div>
+          </article>
+          <article class="card featured-article border border-0">
+            <img class="card-image-top" src="./images/f-img-4.PNG" alt="Garcetti">
+            <div class="card-body pl-0">
+              <h3 class="card-title">
+                <a href="#">'I'm a Marriage Therapist, Here Are 3 Ways Marriage Has Changed'</a>
+              </h3>
+              <p class="card-text">This is climate change and this is an administration that's put its head in the
+                sand," Eric Garcetti said.</p>
+            </div>
+          </article>
+          <article class="card featured-article border border-0">
+            <img class="card-image-top" src="./images/f-img-5.PNG" alt="Garcetti">
+            <div class="card-body pl-0">
+              <h3 class="card-title">
+                <a href="#">After 'A Cowardly' Police Shooting, Protesters Surround L.A. Hospital</a>
+              </h3>
+              <p class="card-text">This is climate change and this is an administration that's put its head in the
+                sand," Eric Garcetti said.</p>
+            </div>
+          </article>
+        </div>
+        <div class="col-lg-5">
+          <!-- <article class="card featured-article">
+            <img src="./images/garcetti.jpg" alt="Garcetti">
+          </article> -->
+        </div>
+        <div class="col-lg">
+          <!-- <article class="card featured-article">
+            <img src="./images/garcetti.jpg" alt="Garcetti">
+          </article> -->
+        </div>
+      </div>
+    </div>
   </main>
 
   <!-- Optional JavaScript -->
