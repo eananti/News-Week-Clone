@@ -11,3 +11,22 @@
 * {
   box-sizing: border-box;
 }
+
+body {
+  max-width: 1310px;
+  margin: 0 auto;
+}
+
+.none {
+  display: none;
+}
+
+/* header */
+
+nav {
+  background-color: #f72210;
+}
+
+.btn-color {
+  background-color: #ffe400;
+}

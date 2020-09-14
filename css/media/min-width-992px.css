@@ -1,0 +1,12 @@
+.lg-show {
+  display: block;
+}
+
+.bg-color {
+  z-index: 0;
+}
+
+.weather {
+  width: 24px;
+  height: 24px;
+}

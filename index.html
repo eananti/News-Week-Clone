@@ -10,10 +10,51 @@
     integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
   <link rel="stylesheet" href="./css/reset.css">
   <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" media="all and (min-width: 768px)" href="./css/media/min-width-768.css" />
+  <link rel="stylesheet" media="all and (min-width: 992px)" href="./css/media/min-width-992px.css" />
 </head>
 
 <body>
   <!-- Document starts here -->
+  <header>
+    <nav class="navbar bg-color navbar-dark fixed-top d-lg-none">
+      <a href="#" class="navbar-brand">NavBar</a>
+      <span class="ml-auto">LOGIN</span>
+      <button type="button" class="btn btn-color mr-2 ml-4">SUBSCRIBE</button>
+      <button class="navbar-toggler" type="button">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </nav>
+
+    <nav class="container-fluid navbar none lg-show">
+      <div class="row">
+        <div class="col-lg">
+          <div class="d-flex align-items-center">
+            <img class="weather" src="./images/30.png" alt="Weather">
+            <span>&nbsp;&nbsp;25°&nbsp;&nbsp;</span>
+            <span>North California, USA ❯</span>
+          </div>
+          <div>
+            <date>Mon, Sep 14, 2020</date>
+          </div>
+        </div>
+        <div class="col-lg">
+          <img src="./images/logo.png" alt="Logo">
+        </div>
+        <div class="col-lg align-self-end d-flex justify-content-end align-items-center">
+          <span>LOGIN</span>
+          <button type="button" class="btn btn-color">SUBSCRIBE</button>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Mobile View -->
+
+  <!-- Medium and Large View-->
+  <main class="none md-show">
+
+  </main>
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
