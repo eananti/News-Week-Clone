@@ -41,3 +41,16 @@ body {
   width: 100%;
   height: auto;
 }
+
+.d-img {
+  height: 63px;
+  width: 63px;
+}
+
+.d-alt-border-top {
+  border-top: 4px solid #d9d9d9; 
+}
+
+.d-alt-border-bottom {
+  border-bottom: 4px solid #d9d9d9; 
+}
