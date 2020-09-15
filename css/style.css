@@ -38,7 +38,7 @@ body {
 }
 
 .image-text-bg-color {
-  background-color: rgb(244,245,246);
+  background-color: rgb(244, 245, 246);
 }
 
 /* header */
@@ -54,8 +54,7 @@ body {
   height: auto;
 }
 
-.category,
-.category-culture {
+.category, .category-culture {
   background-color: rgba(255, 255, 255, .9);
   bottom: 0;
   left: 0;
@@ -128,4 +127,29 @@ body {
 .section-image {
   width: 95px;
   height: 95px;
+}
+
+.sub-img-div {
+  padding-bottom: 13px;
+}
+
+.sub-images-cont-1,
+.sub-images-cont-2 {
+  width: 170px;
+  height: 228px;
+  margin-left: -15px;
+}
+
+.sub-images-cont-2 {
+  top: 13px;
+  left: 80px;
+}
+
+.sub-images-cont-1 img,
+.sub-images-cont-2 img {
+  max-width: 100%;
+}
+
+.sub-button {
+  width: 130px;
 }
