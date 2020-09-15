@@ -37,6 +37,10 @@ body {
   background-color: rgb(244, 245, 246);
 }
 
+.image-text-bg-color {
+  background-color: rgb(244,245,246);
+}
+
 /* header */
 
 .btn-color {
@@ -120,3 +124,5 @@ body {
   text-align: center;
   margin: 6px auto;
 }
+
+
