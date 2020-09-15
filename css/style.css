@@ -42,6 +42,12 @@ body {
   background-color: rgb(244, 245, 246);
 }
 
+.big-font {
+  font-size: 1.3em;
+}
+
+
+
 /* header */
 
 .btn-color {
