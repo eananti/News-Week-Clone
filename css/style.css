@@ -16,6 +16,19 @@ body {
   max-width: 1310px;
   margin: 0 auto;
   font-family: "Roboto Condensed",sans-serif;
+  line-height: 1.3em;
+  background-color: #f4f5f6;
+}
+
+header,
+main,
+footer {
+  background-color: #fff;
+}
+
+p {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.2em;
 }
 
 .none {
@@ -46,8 +59,6 @@ body {
   font-size: 1.3em;
 }
 
-
-
 /* header */
 
 .btn-color {
@@ -57,6 +68,7 @@ body {
 .subscribe-btn {
   border-radius: 25px;
 }
+
 /* main */
 
 .featured-article img {
@@ -161,7 +173,7 @@ body {
 }
 
 .sub-button {
-  width: 130px;
+  width: 140px;
 }
 
 .bg-news-img {
@@ -169,4 +181,10 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+@media all and (max-width: 991px) {
+  main {
+    margin-top: 80px;
+  }
 }
