@@ -125,4 +125,7 @@ body {
   margin: 6px auto;
 }
 
-
+.section-image {
+  width: 95px;
+  height: 95px;
+}
