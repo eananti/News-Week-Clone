@@ -15,6 +15,7 @@
 body {
   max-width: 1310px;
   margin: 0 auto;
+  font-family: "Roboto Condensed",sans-serif;
 }
 
 .none {
@@ -47,6 +48,9 @@ body {
   background-color: #ffe400;
 }
 
+.subscribe-btn {
+  border-radius: 25px;
+}
 /* main */
 
 .featured-article img {
