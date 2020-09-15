@@ -50,6 +50,21 @@ body {
   height: auto;
 }
 
+.category,
+.category-culture {
+  background-color: rgba(255, 255, 255, .9);
+  bottom: 0;
+  left: 0;
+}
+
+.category {
+  font: bold 17px/16px "Roboto Condensed", sans-serif;
+}
+
+.category-culture {
+  font: bold 11px/10px "Roboto Condensed", sans-serif;
+}
+
 .d-img {
   height: 63px;
   width: 63px;
@@ -69,4 +84,39 @@ body {
   border: 1px solid #e5e5e5;
   background-color: #f4f5f6;
   padding: 20px;
+}
+
+.d-debate-line {
+  position: relative;
+}
+
+.d-debate-line::before {
+  top: calc(50% - 2px);
+}
+
+.d-debate-line::after {
+  top: 50%;
+}
+
+.d-debate-line::before,
+.d-debate-line::after {
+  content: "";
+  display: block;
+  background-color: #d9d9d9;
+  height: 1px;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.d-debate-line .d-debate-vs {
+  position: relative;
+  z-index: 1;
+  width: 32px;
+  background-color: #000;
+  color: #d6d6d6;
+  border-radius: 50%;
+  font: bold 14px/32px "Roboto Condensed", sans-serif;
+  text-align: center;
+  margin: 6px auto;
 }
