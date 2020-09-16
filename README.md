@@ -40,9 +40,8 @@
 
 👤 **Author2**
 
-- Github: []()
-- Twitter: []()
-- Linkedin: []()
+- Github: [GzimAsani](https://github.com/GzimAsani)
+- Linkedin: [GzimAsani](https://www.linkedin.com/in/gzim-asani-83390a17a/)
 
 ## Show your support
 
