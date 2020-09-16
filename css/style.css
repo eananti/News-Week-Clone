@@ -15,6 +15,7 @@ body {
 header,
 main,
 section,
+.mob-view,
 footer {
   background-color: #fff;
 }
