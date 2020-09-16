@@ -1,0 +1,14 @@
+@media all and (max-width: 768px) {
+  .subscribe-btn {
+    font-size: 0.8em;
+    padding: 0.5em;
+    margin-right: 0 !important;
+    margin-left: 0.4em !important;
+  }
+}
+
+@media all and (max-width: 991px) {
+  main {
+    padding-top: 80px;
+  }
+}
