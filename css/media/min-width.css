@@ -22,4 +22,16 @@
   img.d-mag-h {
     height: 250px;
   }
+
+  .nav-list-1 {
+    padding-left: 0.3em;
+    padding-right: 0.3em;
+  }
+}
+
+@media all and (min-width: 1148px) {
+  .nav-list-1 {
+    padding-left: 1.1em;
+    padding-right: 1.1em;
+  }
 }
