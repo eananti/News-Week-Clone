@@ -2,6 +2,15 @@
   img.my-turn-img {
     height: 140px;
   }
+
+  .footer-list li {
+    border-right: 1px solid #dee2e6;
+  }
+
+  .footer-list li:first-child,
+  .footer-list li:last-child {
+    border: none;
+  }
 }
 
 @media all and (min-width: 992px) {
