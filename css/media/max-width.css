@@ -18,24 +18,50 @@
     text-align: center;
   }
 
-  .sub-mob img {
-    width: 165px;
+  .container-block .contents {
+    text-align: center;
+    background-color: #f4f5f6;
+    padding: 24px 20px 20px;
   }
 
-  .sub-img-1 {
-    top: 5%;
-    left: 7%;
+  .container-block .contents .image-container {
+    display: inline-block;
+    margin-bottom: 15px;
+    height: 160px;
+    position: relative;
+    padding-right: 90px;
   }
 
-  .sub-img-2 {
-    top: 9%;
-    left: 35%;
+  .container-block .image {
+    width: 170px;
+    height: 228px;
   }
 
-  .extra-space {
-    padding-top: 150px;
-    padding-bottom: 60px;
-    top: 60px;
+  .image-container img {
+    width: 100%;
+  }
+
+  .container-block img {
+    vertical-align: middle;
+    height: auto;
+    max-width: 100%;
+  }
+
+  .container-block .img-2 {
+    position: absolute;
+    top: 13px;
+    left: 80px;
+  }
+
+  .container-block h3 {
+    line-height: 28px;
+    margin-bottom: 15px;
+    margin-bottom: 10px;
+    position: relative;
+  }
+
+  .container-block p {
+    margin-bottom: 20px;
   }
 }
 
