@@ -1,0 +1,37 @@
+@media all and (min-width: 768px) {
+  img.my-turn-img {
+    height: 140px;
+  }
+
+  .footer-list li {
+    border-right: 1px solid #dee2e6;
+  }
+
+  .footer-list li:first-child,
+  .footer-list li:last-child {
+    border: none;
+  }
+}
+
+@media all and (min-width: 992px) {
+  .weather {
+    width: 2em;
+    height: 2em;
+  }
+
+  img.d-mag-h {
+    height: 250px;
+  }
+
+  .nav-list-1 {
+    padding-left: 0.3em;
+    padding-right: 0.3em;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .nav-list-1 {
+    padding-left: 1.1em;
+    padding-right: 1.1em;
+  }
+}

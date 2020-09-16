@@ -1,0 +1,180 @@
+/* base */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1310px;
+  margin: 0 auto;
+  font-family: "Roboto Condensed", sans-serif;
+  line-height: 1.3em;
+  background-color: #f4f5f6;
+}
+
+header,
+main,
+section,
+.mob-view,
+footer {
+  background-color: #fff;
+}
+
+p {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.2em;
+}
+
+.white-color {
+  color: #fff;
+}
+
+.red-color {
+  color: #f72210;
+}
+
+.red-bg-color {
+  background-color: #f72210;
+}
+
+.box-bg-color {
+  background-color: rgb(244, 245, 246);
+}
+
+.image-text-bg-color {
+  background-color: rgb(244, 245, 246);
+}
+
+.big-font {
+  font-size: 1.3em;
+}
+
+/* header */
+
+.admin-image {
+  width: 1.3em;
+}
+
+.btn-color {
+  background-color: #ffe400;
+}
+
+.subscribe-btn {
+  border-radius: 2em;
+}
+
+.red-shade::before {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  content: "";
+  width: 100px;
+  background-color: #f72210;
+  border-left: 12px solid white;
+  border-top: 13px solid #f72210;
+}
+
+/* main */
+
+.featured-article img {
+  width: 100%;
+  height: auto;
+}
+
+.category,
+.category-culture {
+  background-color: rgba(255, 255, 255, 0.9);
+  bottom: 0;
+  left: 0;
+}
+
+.d-img {
+  height: 63px;
+  width: 63px;
+}
+
+.d-alt-border-top {
+  border-top: 4px solid #d9d9d9;
+}
+
+.d-alt-border-bottom {
+  border-bottom: 4px solid #d9d9d9;
+}
+
+.opinion-form {
+  max-width: 300px;
+  margin: 0 auto 30px;
+  border: 1px solid #e5e5e5;
+  background-color: #f4f5f6;
+  padding: 20px;
+}
+
+.d-debate-line::before {
+  top: calc(50% - 2px);
+}
+
+.d-debate-line::after {
+  top: 50%;
+}
+
+.d-debate-line::before,
+.d-debate-line::after {
+  content: "";
+  display: block;
+  background-color: #d9d9d9;
+  height: 1px;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.d-debate-line .d-debate-vs {
+  position: relative;
+  z-index: 1;
+  width: 32px;
+  background-color: #000;
+  color: #d6d6d6;
+  border-radius: 50%;
+  font: bold 14px/32px "Roboto Condensed", sans-serif;
+  text-align: center;
+  margin: 6px auto;
+}
+
+.section-image {
+  width: 95px;
+  height: 95px;
+}
+
+.sub-img-div {
+  padding-bottom: 13px;
+}
+
+.sub-images-cont-1,
+.sub-images-cont-2 {
+  width: 170px;
+  height: 228px;
+  margin-left: -15px;
+}
+
+.sub-images-cont-2 {
+  top: 13px;
+  left: 80px;
+}
+
+.sub-button {
+  width: 140px;
+}
+
+.bg-news-img {
+  background: url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/* footer */
+
+.footer-icons i {
+  font-size: 1.4em;
+}
